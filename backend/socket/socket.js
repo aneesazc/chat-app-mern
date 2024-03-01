@@ -39,8 +39,3 @@ io.on("connection", (socket) => {
 });
 
 export { app, io, server };
-
-// explanation: 
-// The socket server is created using the Server class from the socket.io library.
-// The server is added on top of the http/express server.
-// The server listens for connections and disconnections.

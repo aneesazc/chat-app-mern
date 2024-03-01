@@ -4,7 +4,7 @@ import useGetConversations from '../../hooks/useGetConversations'
 
 const Conversations = () => {
     const {loading, conversations} = useGetConversations() // this gets a list of users with id, fullName, profilePic, gender, username
-    console.log("Conversations", conversations)
+    // console.log("Conversations", conversations)
     return (
         <div className='py-2 flex flex-col overflow-auto'>
 
